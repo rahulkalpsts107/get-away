@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Search"  ></item>
+    <item android:title="My Trips"   ></item>
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Saved Searches" />
+            <item
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <group android:id="@+id/coresettings">
+
+        <item android:title="Settings" ></item>
+        <item android:title="Help" ></item>
+    </group>
+
+
+
+
+
+</menu>
